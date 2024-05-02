@@ -1,6 +1,6 @@
 var style_tg_eje_via_2 = function(feature, resolution) {
     var labelText = feature.get("nomb_via") || ""; // Obtener el texto de la etiqueta
-    var labelFont = "9px \'Microsoft New Tai Lue\', sans-serif";
+    var labelFont = "10.4px \'Microsoft New Tai Lue\', sans-serif";
     var labelFill = "#323232";
     var bufferColor = "";
     var bufferWidth = 0;
@@ -34,3 +34,4 @@ var style_tg_eje_via_2 = function(feature, resolution) {
         return []; // Si la escala es menor que el mínimo, no se muestra ninguna etiqueta
     }
 };
+

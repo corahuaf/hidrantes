@@ -12,7 +12,7 @@ var lyr_tg_manzana_0 = new ol.layer.Vector({
                 source:jsonSource_tg_manzana_0, 
                 style: style_tg_manzana_0,
                 popuplayertitle: "tg_manzana",
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/tg_manzana_0.png" /> tg_manzana'
             });
 var format_tg_c_hidrante_1 = new ol.format.GeoJSON();
@@ -27,7 +27,7 @@ var lyr_tg_c_hidrante_1 = new ol.layer.Vector({
                 source:jsonSource_tg_c_hidrante_1, 
                 style: style_tg_c_hidrante_1,
                 popuplayertitle: "tg_c_hidrante",
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/tg_c_hidrante_1.png" /> tg_c_hidrante'
             });
 var format_tg_eje_via_2 = new ol.format.GeoJSON();
@@ -42,7 +42,7 @@ var lyr_tg_eje_via_2 = new ol.layer.Vector({
                 source:jsonSource_tg_eje_via_2, 
                 style: style_tg_eje_via_2,
                 popuplayertitle: "tg_eje_via",
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/tg_eje_via_2.png" /> tg_eje_via'
             });
 
