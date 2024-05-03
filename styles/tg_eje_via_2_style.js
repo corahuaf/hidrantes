@@ -9,7 +9,7 @@ var style_tg_eje_via_2 = function(feature, resolution) {
     var offsetY = 3;
 
     // Define la escala mínima para mostrar las etiquetas
-    var minScaleToShowLabels = 2000; // Ajusta según tus necesidades
+    var minScaleToShowLabels = 4000; // Ajusta según tus necesidades
 
     // Calcula la escala actual en función de la resolución
     var scale = resolution * 39.37 * 72;
